@@ -5,6 +5,10 @@ import random
 
 # 3rd party libraries
 from plotille import histogram
+import serial
+
+# TODO: automatically detect serial port
+# https://github.com/mu-editor/mu/blob/f56bf64ff570d6268862b0396e79295031e6aedf/mu/modes/base.py
 
 
 class ChunkyTRNG(random.Random):
