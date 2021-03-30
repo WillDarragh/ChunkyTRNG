@@ -23,10 +23,6 @@ from plotille import histogram
 from PyQt5.QtSerialPort import QSerialPortInfo
 
 
-# TODO: automatically detect serial port
-# https://github.com/mu-editor/mu/blob/f56bf64ff570d6268862b0396e79295031e6aedf/mu/modes/base.py
-
-
 class ChunkyTRNG(random.Random):
     """The main chunky"""
 
